@@ -1,0 +1,27 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: seagreen;
+    position: relative;
+    animation-name: bgcl;
+    animation-duration: 4s;
+    /* animation-delay: -2s; */
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+/* @keyframes bgcl {
+    from {background-color: seagreen;}
+    to {background-color: yellow;}
+} */
+
+@keyframes bgcl {
+    0% {background-color: blue; left:0px; top:0px }
+    25% {background-color: yellow; left:200px; top:0px }
+    50% {background-color: darkorange; left:200px; top:200px }
+    75% {background-color: green; left:0px; top:200px }
+    100% {background-color: blue; left:0px; top:0px }
+}
+
+
+
