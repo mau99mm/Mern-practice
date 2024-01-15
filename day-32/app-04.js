@@ -14,4 +14,4 @@ function calcPercentage(mrk, ttlMrk) {
 var res = calcPercentage(43, 60)
 console.log('Your percentage is '+ res)
 
-
+console.log('Your Percentage is ' + calcPercentage(30, 80))
