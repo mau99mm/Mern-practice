@@ -4,3 +4,4 @@ Substraction
 Rest in Homework
 Comparison 
 Bitwise operators
+Loops
